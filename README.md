@@ -10,6 +10,8 @@ MT4 - Module Java - Travaux pratiques
 
 ## Exercice 1
 
+Check commits to see Exercice 1 commits. (This exercice use exerice 3)
+
 1. Run the following command to compile code:
 
    ```bash
@@ -31,7 +33,9 @@ MT4 - Module Java - Travaux pratiques
    java -jar Exercice1.jar 1 2 +
    ```
 
-## Exercice 2
+## Exercice 2 & 3
+
+Check commits to see Exercice 2 commits. (This exercice use exerice 3)
 
 1. Run the following command to compile code:
 

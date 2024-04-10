@@ -2,6 +2,8 @@
 
 MT4 - Module Java - Travaux pratiques
 
+Check each branch to see each exercice
+
 ## Table of Contents
 
 - [Set up](#setup)
@@ -10,7 +12,7 @@ MT4 - Module Java - Travaux pratiques
 
 ## Exercice 1
 
-Check commits to see Exercice 1 commits. (This exercice use exerice 3)
+In the branch `exercice-1` :
 
 1. Run the following command to compile code:
 
@@ -33,9 +35,9 @@ Check commits to see Exercice 1 commits. (This exercice use exerice 3)
    java -jar Exercice1.jar 1 2 +
    ```
 
-## Exercice 2 & 3
+## Exercice 2, 3, 4
 
-Check commits to see Exercice 2 commits. (This exercice use exerice 3)
+In the branch `exercice-2`, `exercice-3` or `exercice-4` :
 
 1. Run the following command to compile code:
 
@@ -59,6 +61,26 @@ Check commits to see Exercice 2 commits. (This exercice use exerice 3)
    ```
 
    After that, you can open `/inputs` folder and see all generated `.res` files
+
+## Exercice 5
+
+In the branch `exercice-5` :
+
+Run the following command to execute :
+```bash
+cd learning-java
+java -jar target/exercice2-1.0-SNAPSHOT.jar ./inputs
+```
+
+## Exercice 5
+
+In the branch `exercice-6` :
+
+Run the following command to execute tests :
+```bash
+cd learning-java
+nvm clean test
+```
 
 ## Author
 

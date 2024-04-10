@@ -1,17 +1,22 @@
 package fr.hetic;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.function.Supplier;
+
 public class OperationFactory {
+    private static final Map<String, Supplier<Operation>> operations = new HashMap<>();
+
+    static {
+        operations.put("+", Addition::new);
+        operations.put("-", Subtraction::new);
+        operations.put("*", Multiplication::new);
+    }
+
     public static Operation getOperation(String operator) {
-        switch (operator) {
-            case "+":
-                return new Addition();
-            case "-":
-                return new Subtraction();
-            case "*":
-                return new Multiplication();
-            default:
-                throw new IllegalArgumentException("Unknown operation: " + operator);
+        if (!operations.containsKey(operator)) {
+            throw new IllegalArgumentException("Unknown operation: " + operator);
         }
+        return operations.get(operator).get();
     }
 }
-

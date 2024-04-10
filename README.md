@@ -55,10 +55,10 @@ Check commits to see Exercice 2 commits. (This exercice use exerice 3)
 
    ```bash
    cd bin
-   java -jar Exercice2.jar ../input.op ../output.res
+   java -jar Exercice2.jar ../inputs
    ```
 
-   Open output.res and see the result
+   After that, you can open `/inputs` folder and see all generated `.res` files
 
 ## Author
 

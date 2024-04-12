@@ -130,7 +130,7 @@ In `src/main/resources/application.properties`, choose between `JDBC` or `FILE`.
    java -jar target/exercice7-1.0-SNAPSHOT-jar-with-dependencies.jar
    ```
 
-## Exercice 9
+## Exercice 9 & 10
 
 In the branch `exercice-9` :
 

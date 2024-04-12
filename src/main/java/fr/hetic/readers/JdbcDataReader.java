@@ -5,9 +5,21 @@ import java.io.*;
 
 public class JdbcDataReader implements DataReader {
 
-    private String url = "jdbc:postgresql://SG-hetic-mt4-java-5275-pgsql-master.servers.mongodirector.com:5432/TP";
-    private String user = "etudiant";
-    private String password = "MT4@hetic2324";
+    private String url;
+    private String user;
+    private String password;
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     @Override
     public void process() {
